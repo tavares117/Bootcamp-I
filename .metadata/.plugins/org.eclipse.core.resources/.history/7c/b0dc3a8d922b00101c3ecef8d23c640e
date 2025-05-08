@@ -1,0 +1,11 @@
+public class Fibonacci {
+	public static void main(String[] args) {
+		// Declaração de variáveis
+		double anterior = 0;
+		double atual = 0;
+		double futuro = 0;
+		
+		// Processamento
+		
+	}
+}

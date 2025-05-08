@@ -1,0 +1,19 @@
+public class Fibonacci {
+	public static void main(String[] args) {
+		// Declaração de variáveis
+		double anterior = 1;
+		double atual = 1;
+		double futuro = 0;
+		
+		// Processamento
+		System.out.println(anterior);
+		System.out.println(atual);
+		while (true) { 
+			futuro = (anterior + atual);
+			System.out.println(futuro);
+			atual = anterior;
+			futuro = atual;
+			try {Thread.sleep(100);} catch(Exception e) {}
+		}
+	}
+}
